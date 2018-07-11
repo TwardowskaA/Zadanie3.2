@@ -1,16 +1,15 @@
-public class Koło {
+public class Kolo {
 
     int r;
     final double pi = 3.14;
-    double poleKoła;
 
-    Koło(int r){
+    Kolo(int r){
 
         this.r=r;
 
     }
 
-    double obliczeniePolaKoła(){
+    double obliczeniePola(){
         double wynik = pi * (r * r);
         return wynik;
 
