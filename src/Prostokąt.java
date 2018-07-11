@@ -11,5 +11,8 @@ public class Prostokąt {
 
     }
 
-
+    double obliczenieObwProst(){
+        double wynik = 2 * (bokP1 + bokP2);
+        return wynik;
+    }
 }

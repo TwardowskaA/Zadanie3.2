@@ -2,32 +2,32 @@ public class Kalkulator {
 
 
     double poleKwadratu (Kwadrat kwadrat){
-     kwadrat.poleKwadratu = 2 * kwadrat.bokK;
+     double wynik = kwadrat.obliczeniePolaK();
+        System.out.println(wynik);
 
-        return kwadrat.poleKwadratu;
+        return wynik;
     }
 
 
     double poleKoła(Koło koło){
-     koło.poleKoła = koło.pi * (koło.r * koło.r);
+     double wynik1 = koło.obliczeniePolaKoła();
+        System.out.println(wynik1);;
 
-        return koło.poleKoła;
+        return wynik1;
     }
 
 
     double obwódTrójkąta (Trójkąt trójkąt){
-     trójkąt.obwódTrójkąta = trójkąt.bokT1 + trójkąt.bokT2 + trójkąt.bokT3;
-
-        return trójkąt.obwódTrójkąta;
+     double wynik2 = trójkąt.obliczenieObwTrójkąta();
+        System.out.println(wynik2);
+        return wynik2;
     }
 
 
-
-
     double obwódProstokąta (Prostokąt prostokąt){
-     prostokąt.obwódProstokąta = (2 * (prostokąt.bokP1 + prostokąt.bokP2));
-
-        return prostokąt.obwódProstokąta;
+      double wynik3 = prostokąt.obliczenieObwProst();
+        System.out.println(wynik3);
+        return wynik3;
     }
 
 

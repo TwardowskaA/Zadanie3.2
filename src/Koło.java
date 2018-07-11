@@ -10,5 +10,10 @@ public class Koło {
 
     }
 
+    double obliczeniePolaKoła(){
+        double wynik = pi * (r * r);
+        return wynik;
+
+    }
 
 }

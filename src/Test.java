@@ -3,25 +3,20 @@ public class Test {
     public static void main(String[] args) {
 
         Kwadrat kwadrat = new Kwadrat(5.5);
-        Kalkulator kalkulator3 = new Kalkulator();
-        double wynik3 = kalkulator3.poleKwadratu(kwadrat);
+        double wynik3 = kwadrat.obliczeniePolaK();
         System.out.println(wynik3);
 
         Koło koło = new Koło (5);
-        Kalkulator kalkulator2 = new Kalkulator();
-        double wynik2 = kalkulator2.poleKoła(koło);
+        double wynik2 = koło.obliczeniePolaKoła();
         System.out.println(wynik2);
 
-        Trójkąt trójkąt = new Trójkąt(1.1,5.7,6.2);
-        Kalkulator kalkulator = new Kalkulator();
-        double wynik = kalkulator.obwódTrójkąta(trójkąt);
+        Trójkąt trójkąt = new Trójkąt(4.4,8.7,9.4);
+        double wynik = trójkąt.obliczenieObwTrójkąta();
         System.out.println(wynik);
 
         Prostokąt prostokąt = new Prostokąt(4.3,8.4);
-        Kalkulator kalkulator1 = new Kalkulator();
-        double wynik1 = kalkulator1.obwódProstokąta(prostokąt);
+        double wynik1 = prostokąt.obliczenieObwProst();
         System.out.println(wynik1);
-
 
     }
 

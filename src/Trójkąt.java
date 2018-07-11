@@ -13,4 +13,11 @@ public class Trójkąt {
 
 
     }
+
+    double obliczenieObwTrójkąta(){
+       double wynik = bokT1 + bokT2 + bokT3;
+       return wynik;
+
+    }
+
 }

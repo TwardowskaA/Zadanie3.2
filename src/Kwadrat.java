@@ -8,6 +8,11 @@ public class Kwadrat {
         bokK = bK;
     }
 
+    double obliczeniePolaK(){
+        double wynik = 2 * bokK;
+        return wynik;
+    }
+
 }
 
 
